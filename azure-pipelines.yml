@@ -9,7 +9,7 @@ trigger:
 pool:
  name: selfhostedsri
  demands:
- - agent.name -eqauls linagent
+ - agent.name -equals linagent
 
 steps:
 - task: NodeTool@0
